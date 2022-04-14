@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Lemon Milk;
+    src: url(../fonts/LEMONMILK-Bold.otf)
+}
+
+html{
+    font-family: Lemon Milk;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+.taskbar{
+    
+    background-color: #119091;
+    height: 70px;
+}
+
+ul{
+    
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li{
+    
+    list-style-type: none;
+    margin-top: 0.5em;
+    float: left;
+  
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 6px 16px;
+    margin-left: 5px;
+    color: black;
+    position: relative;
+    transform: translateY(-50%);
+}
+li a:hover:not(.active) {
+    background-color: #095a5a;
+}
+
+
+p{
+    padding: 1em;
+    font-size: 36px;
+    text-align: center;
+}
+
+.imgs{
+
+    background-color: aqua;
+    height: 400px;
+
+}
